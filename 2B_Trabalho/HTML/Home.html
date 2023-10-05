@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <div class="container">
+    
+        <header class="cabecalho">
+            <nav class="navbar-cabecalho">
+    
+                <div class="menu-dropdown">
+                    <img onclick="toggle_menu_dropdown()" class="menu-icn" src="../imgs/menu-icn.png" alt="ícone menu">
+
+                    <div id="menu-dropdown" class="menu-dropdown-content">
+                        <a href="Home.html">Página Inicial</a>
+                        <a href="Pagina_Perfil.html">Meu Perfil</a>
+                        <a href="Menu_Administrador.html">Página de Administrador</a>
+                        <a href="faq.html">FAQ</a>
+                        <a href="signin.html">Sair</a>
+                    </div>
+                </div>
+    
+                <div class="pesquisa">
+                    <a href="#"><img src="../imgs/search-icn.png" alt="icone pesquisar"></a>
+                    <input class="campo-pesquisa" type="text" placeholder="Pesquisar">
+                    <div class="perfil-header">
+                        <img src="../imgs/profile-pic-pq.png" alt="foto de perfil">
+                    </div>
+                </div>
+    
+            </nav>
+        </header>
+        <main>
+            <div class="container-main">
+
+                <div class="esquerda">
+                    <div class="logo">
+                            <a href="Home.html"><img src="../imgs/fortes-logo.png" alt="logo fortes" id="dropdown-home"></a>
+                    </div>
+
+                    <div class="lateral1">
+                        <div class="lateral1-azul"></div>
+                        <a href="./Pagina_Perfil.html"><img src="../imgs/profile-pic-med.png" alt="foto de perfil" class="perfil-med"></a>
+                        <div class="infos">
+                            <h3>João da Silva Neto</h3>
+                            <h4>Funcionário de TI</h4>
+                            <p>Futebol</p>
+                            <p>Violão</p>
+                        </div>
+                    </div>
+
+                    <div class="lateral2">
+                        <div class="infos">
+                            <h4>Grupos</h4>
+                            <p>Banda</p>
+                            <p>Futevôlei da firma</p>
+                            <h4>Eventos</h4>
+                            <p>Futevôlei 18/06</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="meio-container">
+                    <ul class="posts">
+                        <li>
+                            <div class="meio1 meio-box">
+                                <div class="post-perfil">
+                                    <img src="../imgs/profile-pic-pq.png" alt="Foto de perfil">
+                                </div>
+                                <div>
+                                    <input class="newpost" type="text" placeholder="Quer compartilhar alguma coisa?">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="meio2 meio-box">
+                            
+                                <div class="post-perfil">
+                                    <img src="../imgs/profile-pic-pq.png" alt="Foto de perfil">
+                                </div>
+                                <div class="post-conteudo">
+                                    <div>
+                                        <img class="post-img" src="../imgs/foto-pele.jpg" alt="">
+                                    </div>
+                                    <p><span class="post-name">João da Silva Neto:</span> Pelé Rei Eterno </p>
+                                </div>
+                            </div>
+
+                            <div class="post-comment">
+                                <img src="../imgs/profile-pic-pq.png" alt="Foto de Perfil">
+                                <img src="../imgs/coment-icn.png" alt="Ícone de comentário">
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="meio2 meio-box">
+                            
+                                <div class="post-perfil">
+                                    <img src="../imgs/profile-pic-pq.png" alt="Foto de perfil">
+                                </div>
+                                <div class="post-conteudo">
+                                    <div>
+                                        <img class="post-img" src="../imgs/futevolei-post.jpeg" alt="">
+                                    </div>
+                                    <p><span class="post-name">João da Silva Neto:</span> Do último futevolei  💪  💪 </p>
+                                </div>
+                            </div>
+
+                            <div class="post-comment">
+                                <img src="../imgs/profile-pic-pq.png" alt="Foto de Perfil">
+                                <img src="../imgs/coment-icn.png" alt="Ícone de comentário">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="direita">
+                    <div class="help">
+                        <a href="../HTML/faq.html"><img src="../imgs/help-icn.png" alt="Ícone de ajuda, Interrogação"></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="../Function/menu-dropdown.js"></script>
+</body>
+</html>
+
+<!--     
+<div>
+    <h1 id="logado"></h1>
+
+    <button onclick="sair()">Sair</button>
+
+    <script src="../Function/index.js"></script>
+ </div>
+-->

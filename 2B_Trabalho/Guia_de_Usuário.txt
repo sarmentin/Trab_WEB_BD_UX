@@ -1,0 +1,28 @@
+Primeira tela de Login/Cadastro
+
+Segunda Tela de Home
+- Canto esquerdo apresenta informações do usuário, grupos e eventos.
+- Funçao dropdown no canto superior esquerdo, nas 3 listrinhas.
+- Logo da Fortes Engenharia abaixo apresenta a pagina do administrador
+  para administrar os possiveis eventos.
+- Parte Central da Tela aprensenta as postagens realizadas pelos usuários.
+- Canto Inferior direito a presença do Botão FAQ.
+
+
+Terceira Tela de Perfil
+- Canto esquerdo apresenta informações do usuário, grupos e eventos.
+- Funçao dropdown no canto superior esquerdo, nas 3 listrinhas.
+- Canto superior direito presença do botão de editar o perfil do usuário.
+- Parte Central da Tela aprensenta as postagens realizadas pelos usuários.
+- Canto Inferior direito a presença do Botão FAQ.
+
+Quarta Tela de Editar Perfil 
+- Alterar a foto de Perfil
+- Selecionar um novo talento
+  caso nao tenha a opção pré-estabelecida tem a possibilidade de ir para a tela de Sugestão.
+  
+Quinta Tela de FAQ
+- Pode realizar os feedbacks
+- Tira duvidas recentes 
+- Entrar em contato
+- Presença do Botão enviar.

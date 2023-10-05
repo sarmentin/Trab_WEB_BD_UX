@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Menu Administrador</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" href="../css/menu_administrador.css"/>
+    </head>
+    
+    <body>
+        <header id="header-admin">
+            <div style="padding: 1%;">
+                <div style="width: fit-content; display: inline-block;">
+                    <img src="../imgs/fortes-logo.png" style="height: 60px; filter: opacity(0.5) drop-shadow(0 0 #00CB95);">
+                </div>
+                <div id="dropdown" style="float: right; padding-right: 10px;">
+                    <div id="txt-user">
+                        <span>João da Silva Neto</span>
+                        <br>
+                        <span>Administrador</span>
+                    </div>
+                    <img src="../imgs/profile-pic-pq.png">
+
+                    <div id="dropdown-content">
+                        <a href="./Home.html">Página de Usuário</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </header>
+
+        <div id="container-list">
+            <div id="list">
+                <p class="collapsible">Talentos</p>
+                <div class="content">
+                    <p>Inteligência Artificial</p>
+                    <p>Computação em Núvem</p>
+                    <p>Cantar</p>
+                    <p>Dança</p>
+                    <p>Futebol</p>
+                    <p>Violão</p>
+                    <p>Vôlei</p>
+                </div>
+                <hr>
+                <p class="collapsible">Grupos</p>
+                <div class="content">
+                    <p>Time da Empresa</p>
+                    <p>Banda da Empresa</p>
+                </div>
+                <hr>
+                <p class="collapsible">Eventos</p>
+                <div class="content">
+                    <p>Pelada do fim de semana</p>
+                    <p>Encontro de stand-up</p>
+                    <p>Happy hour</p>
+                </div>
+            </div>
+        </div>
+
+	<br><br><br>
+
+        <div id="pedidos">
+            <div class="pedido">
+		        <span id="txt-pedidos">Pedidos à serem avaliados:</span> <br><br>
+                <div id="pedido-1" class="pedido-item">
+                    <div class="img-pedido">
+                        <img src="../imgs/user-image-1.jpg" width="45px" height="45px">
+                    </div>
+                    <div class="pedido-dados">
+                        <span class="pedido-titulo">Criação de grupo</span>
+                        <br>
+                        <span class="pedido-autor">- Eduardo Almeida</span>
+                        <p class="pedido-desc">Olá, gostaria de sugerir a criação de um grupo.</p>
+                        <br>
+                        <span id="aceitar-1" class="btn-aceitar">Aceitar</span>
+                        <span id="rejeitar-1" class="btn-rejeitar">Rejeitar</span>
+                    </div>
+                </div>
+            </div>
+
+	    <div class="pedido">
+                <div id="pedido-2" class="pedido-item">
+                    <div class="img-pedido">
+                        <img src="../imgs/user-image-2.png" width="45px" height="45px">
+                    </div>
+                    <div class="pedido-dados">
+                        <span class="pedido-titulo">Criação de Evento</span>
+                        <br>
+                        <span class="pedido-autor">- Lucas Guimarães</span>
+                        <p class="pedido-desc">Boa tarde, eu gostaria de sugerir a criação de um evento.</p>
+                        <br>
+                        <span id="aceitar-2" class="btn-aceitar">Aceitar</span>
+                        <span id="rejeitar-2" class="btn-rejeitar">Rejeitar</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pedido">
+                <div id="pedido-3" class="pedido-item">
+                    <div class="img-pedido">
+                        <img src="../imgs/user-image-1.jpg" width="45px" height="45px">
+                    </div>
+                    <div class="pedido-dados">
+                        <span class="pedido-titulo">Criação de um talento</span>
+                        <br>
+                        <span class="pedido-autor">- Juliana Alves</span>
+                        <p class="pedido-desc">Olá, quero sugerir a criação de um novo talento.</p>
+                        <br>
+                        <span id="aceitar-3" class="btn-aceitar">Aceitar</span>
+                        <span id="rejeitar-3" class="btn-rejeitar">Rejeitar</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pedido">
+                <div id="pedido-4" class="pedido-item">
+                    <div class="img-pedido">
+                        <img src="../imgs/user-image-2.png" width="45px" height="45px">
+                    </div>
+                    <div class="pedido-dados">
+                        <span class="pedido-titulo">Criação de um evento</span>
+                        <br>
+                        <span class="pedido-autor">- Adriana dos Santos</span>
+                        <p class="pedido-desc">Bom dia, gostaria de sugerir a criação de um novo evento.</p>
+                        <br>
+                        <span id="aceitar-4" class="btn-aceitar">Aceitar</span>
+                        <span id="rejeitar-4" class="btn-rejeitar">Rejeitar</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src="../Function/menu_administrador.js"></script>
+
+</html>

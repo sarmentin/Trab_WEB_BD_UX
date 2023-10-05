@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/estilo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Editar Perfil</title>
+</head>
+<body>
+  <div class="container editarperfil-container">
+
+    <header class="cabecalho">
+      <nav class="navbar-cabecalho">
+
+        <div class="menu-dropdown">
+          <img onclick="toggle_menu_dropdown()" class="menu-icn" src="../imgs/menu-icn.png" alt="ícone menu">
+
+          <div id="menu-dropdown" class="menu-dropdown-content">
+              <a href="Home.html">Página Inicial</a>
+              <a href="Pagina_Perfil.html">Meu Perfil</a>
+              <a href="Menu_Administrador.html">Página de Administrador</a>
+              <a href="faq.html">FAQ</a>
+              <a href="signin.html">Sair</a>
+          </div>
+        </div>
+
+          <div class="pesquisa">
+              <a href="#"><img src="../imgs/search-icn.png" alt="icone pesquisar"></a>
+              <input class="campo-pesquisa" type="text" placeholder="Pesquisar">
+              <div class="perfil-header">
+                  <img src="../imgs/profile-pic-pq.png" alt="foto de perfil">
+              </div>
+          </div>
+      </nav>
+    </header>
+      
+    
+    <main>
+
+      <div class="perfil-nomefoto">
+
+        <span id="nome">João da Silva Neto</span>
+
+        <div id="home-button">
+          <a href="Home.html"><img id="fortes-logo-branco" src="../imgs/fortes-logo-branco.png" alt="Logo fortes"></a>
+        </div>
+
+      </div>
+
+      <div id="mudar-foto">
+
+        <picture>
+          <source id="foto-perfil" media="(max-width: 1600px) and (max-height: 800px)" srcset="../imgs/profile-pic-lsbg.png">
+          <img src="../imgs/profile-pic-bg.png" alt="Foto de perfil">
+        </picture>
+
+        <input type="file" id="imageinput">
+
+      </div>
+
+      <div class="editar-container">
+        <div class="editar">
+            <h3>Talentos atualmente selecionados</h3>
+
+            <div class="talento">
+              <span>Futebol</span>
+              <img src="../imgs/X-icn.png" alt="Ícone de tirar, X">
+            </div>
+
+            <div class="talento">
+              <span>Violão</span>
+              <img src="../imgs/X-icn.png" alt="Ícone de tirar, X">
+            </div>
+
+            <h3>Selecionar um novo Talento</h3>
+            <div id="conteudo1">
+              <select id="talents-selector">
+                <option value="">Lista de Talentos disponíveis</option>
+                <option value="Inteligência Artificial">Inteligência Artificial</option>
+                <option value="Computação em núvem">Computação em núvem</option>
+                <option value="Canto">Canto</option>
+                <option value="Dança">Dança</option>
+                <option value="Basquete">Basquete</option>
+                <option value="Tênis">Tênis</option>
+                <option value="Vôlei">Vôlei</option>
+                </select>
+              <button id="insert-button">Inserir</button>
+              <ul id="listContainer"></ul>
+            <ul id="listContainer"></ul>
+            </div>
+
+            
+              <!-- Botão de salvar a Pagina -->
+
+              <div id="sv-faq">
+                <div id="sv-button">
+                  <button id="salvar-perfil" onclick="redirect()">Salvar</button>
+                </div>
+                <div id="faq">
+                  <a href="faq.html">Seu Talento não está disponível
+                    Clique no aqui e faça uma sugestão!
+                  </a>
+                </div>
+              </div>
+
+            
+                <script>
+                    function redirect() {
+                        window.location.href = "./Pagina_Perfil.html";
+                    }
+                </script>
+              </div>
+            </div>
+          </div>
+      </div>
+      </main>
+    
+  </div>
+    <script src="../Function/funcao.js"></script>
+    <script src="../Function/menu-dropdown.js"></script>
+</body>
+</html>

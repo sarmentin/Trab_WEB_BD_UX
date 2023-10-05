@@ -1,0 +1,161 @@
+           .collapsible {
+              background-color: #07438C;
+              color: white;
+              cursor: pointer;
+              border: none;
+              font-size: 25px;
+            }
+            
+            .collapsible:hover {
+              background-color: #073a78;
+            }
+            
+            .content {
+              padding: 0px 18px 0px;
+              max-height: 0;
+              overflow: hidden;
+              transition: max-height 0.2s ease-out;
+            }
+
+            body {
+                background-color: #E9FFFF; 
+                margin: 0; 
+                padding: 0;
+                font-family: 'Inter', sans-serif;
+            }
+
+            #container-list {
+                width: 25%; 
+                position: fixed; 
+                padding: 7% 2% 2%;
+            }
+
+            #list {
+                overflow: auto;
+                background-color: #07438C;
+                height: 75vh;
+                padding: 7%;
+                color: white;
+            }
+
+            #txt-pedidos {
+		        font-size: 25px;
+            }
+
+            #pedidos {
+                width: 70%; 
+                float: right; 
+                padding: 2%;
+            }
+            .pedido {
+                padding: 6% 15% 0%;
+            }
+
+            .img-pedido {
+                display: inline-block; 
+                vertical-align: top;
+            }
+
+            .pedido-item {
+                background-color: white;
+                padding: 2%;
+            }
+
+            .pedido-dados {
+                display: inline-block; 
+                width: 80%; 
+                padding: 3%;
+            }
+
+            .pedido-titulo {
+                font-size: 20px;
+            }
+
+            .pedido-autor {
+                font-size: 15px;
+            }
+
+            .pedido-desc {
+                font-size: 15px;
+            }
+
+            .btn-aceitar {
+                color: #00CB95;
+                background-color: white;
+                border: 1px solid #00CB95;
+                border-radius: 5px;
+                padding: 5px;
+                cursor: pointer;
+                font-size: 16px;
+                margin-right: 16px;
+            }
+
+            .btn-aceitar:hover {
+                color: white;
+                background-color: #00CB95;
+            }
+
+            .btn-aceitar:active {
+                padding: 3px;
+                font-size: 15px;
+            }
+
+            .btn-rejeitar {
+                color: #c43a13;
+                background-color: white;
+                border: 1px solid #c43a13;
+                border-radius: 5px;
+                padding: 5px;
+                cursor: pointer;
+                font-size: 16px;
+            }
+
+            .btn-rejeitar:hover {
+                color: white;
+                background-color: #c43a13;
+            }
+
+            .btn-rejeitar:active {
+                padding: 3px;
+                font-size: 15px;
+            }
+
+            #header-admin {
+                position: fixed;
+                height: 75px;
+                width: 100%;
+                background: #07438C;
+            }
+
+            #txt-user {
+                display: inline-block; 
+                padding-right: 10px; 
+                color: white; 
+                text-align: right;
+            }
+
+            #dropdown {
+                position: relative;
+                display: inline-block;
+		            cursor: pointer;
+            }
+
+            #dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #1A5C8C;
+                min-width: 160px;
+                z-index: 1;
+                cursor: pointer;
+            }
+
+            #dropdown-content a {
+                color: white;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            #dropdown:hover #dropdown-content {
+                display: block;
+            }

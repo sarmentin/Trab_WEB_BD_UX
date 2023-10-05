@@ -1,0 +1,91 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="cabecalho">
+            <nav class="navbar-cabecalho">
+
+                <div class="menu-dropdown">
+                    <img onclick="toggle_menu_dropdown()" class="menu-icn" src="../imgs/menu-icn.png" alt="ícone menu">
+
+                    <div id="menu-dropdown" class="menu-dropdown-content">
+                        <a href="Home.html">Página Inicial</a>
+                        <a href="Pagina_Perfil.html">Meu Perfil</a>
+                        <a href="Menu_Administrador.html">Página de Administrador</a>
+                        <a href="faq.html">FAQ</a>
+                        <a href="signin.html">Sair</a>
+                    </div>
+                </div>
+
+                <div class="pesquisa">
+                    <a href="#"><img src="../imgs/search-icn.png" alt="icone pesquisar"></a>
+                    <input class="campo-pesquisa" type="text" placeholder="Pesquisar">
+                    <div class="perfil-header">
+                        <img src="../imgs/profile-pic-pq.png" alt="foto de perfil">
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container-main">
+                <div class="esquerda">
+                    <div class="logo">
+                        <a href="Home.html"><img src="../imgs/fortes-logo.png" alt="logo fortes"></a>
+                    </div>
+                    <div class="lateral1">
+                        <div class="lateral1-azul"></div>
+                        <a href="Pagina_Perfil.html"><img src="../imgs/profile-pic-med.png" alt="foto de perfil" class="perfil-med"></a>
+                        <div class="infos">
+                            <h3>João da Silva Neto</h3>
+                            <h4>Funcionário de TI</h4>
+                            <p>Futebol</p>
+                            <p>violão</p>
+                        </div>
+                    </div>
+                    <div class="lateral2">
+                        <div class="infos">
+                            <h4>Grupos</h4>
+                            <p>Banda</p>
+                            <p>Futevôlei da firma</p>
+                            <h4>Eventos</h4>
+                            <p>Futevôlei 18/06</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="meio-container">
+                    <div class="blsqr">
+                        <div id="feedback">
+                            <p>Digite aqui seu feedback:</p>
+                        </div>
+                        <form class="feedback">
+                            <div class="wsqr">
+                                <textarea name="campo-feedback" id="campo-feedback" rows="9"></textarea>
+                            </div>
+                            <div class="env">
+                                <button id="env-feedback" type="submit" onclick="Evento()">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="blsqr2">
+                        <div class="duv">
+                            <p>Dúvidas? Entre em contato por meio do endereço de email:<br>
+                                contato.suporte@fortes.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+<script src="../Function/menu-dropdown.js"></script>
+</body>
+
+</html>

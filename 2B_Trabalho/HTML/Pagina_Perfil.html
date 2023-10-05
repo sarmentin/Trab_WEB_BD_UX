@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/estilo_do_perfil.css" />
+    <title>Perfil</title>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <nav class="navbar-cabecalho">
+        
+        <div class="menu-dropdown">
+          <img onclick="toggle_menu_dropdown()" class="menu-icn" src="../imgs/menu-icn.png" alt="ícone menu">
+
+          <div id="menu-dropdown" class="menu-dropdown-content">
+              <a href="Home.html">Página Inicial</a>
+              <a href="Pagina_Perfil.html">Meu Perfil</a>
+              <a href="Menu_Administrador.html">Página de Administrador</a>
+              <a href="faq.html">FAQ</a>
+              <a href="signin.html">Sair</a>
+          </div>
+        </div>
+
+        <div class="pesquisa">
+          <a href="#"
+            ><img src="../imgs/search-icn.png" alt="icone pesquisar"
+          /></a>
+          <input class="campo-pesquisa" type="text" placeholder="Pesquisar" />
+          <div class="perfil-header">
+            <img src="../imgs/profile-pic-pq.png" alt="foto de perfil" />
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="perfil_lateral">
+        <a href="Pagina_Perfil.html"
+          ><img
+            src="../imgs/profile-pic-bg.png"
+            alt="foto de perfil"
+            class="perfil-med"
+        /></a>
+
+        <div class="infos">
+          <h3>João da Silva Neto</h3>
+          <div class="infos">
+            <h4>Funcionário de TI</h4>
+          </div>
+          <p>Futebol</p>
+          <p>Violão</p>
+        </div>
+
+        <div class="infos">
+          <div class="infos">
+            <h4>Grupos</h4>
+            <p>Banda</p>
+            <p>Futevôlei da firma</p>
+          </div>
+          <div class="infos">
+            <h4>Eventos</h4>
+            <p>Futevôlei 18/06</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="main_parte_azul">
+        <a href="Home.html"
+          ><img src="../imgs/fortes-logo-branco.png" alt="logo fortes"
+        /></a>
+      </div>
+      <div class="main_parte_branca">
+        <div class="postagens">
+          <div class="postagem">
+            <div class="header_postagem">
+              <div class="img_postagem">
+                <img
+                  class="header_imagem_perfil"
+                  src="../imgs/profile-pic-med.png"
+                />
+              </div>
+              <h3>João da Silva Neto</h3>
+            </div>
+            <img class="postagem-img"
+              src="../imgs/foto-pele.jpg"
+              alt=""
+            />
+            <div class="texto_postagem">
+              <p>
+                🌟 Orgulhoso em compartilhar meus talentos: futebol e violão! 🌟
+                <br />
+                Olá! Quero compartilhar duas paixões com vocês: futebol e
+                violão. Sou um jogador de futebol habilidoso e apaixonado,
+                sempre aberto a conversas sobre o esporte. Além disso, toco
+                violão e adoro explorar diferentes estilos musicais. Estou
+                animado para conectar-me com pessoas que compartilham interesses
+                semelhantes. Vamos criar uma comunidade de talentos
+                diversificados e inspiradores juntos!
+              </p>
+            </div>
+          </div>
+
+          <div class="postagem">
+            <div class="header_postagem">
+              <div class="img_postagem">
+                <img
+                  class="header_imagem_perfil"
+                  src="../imgs/profile-pic-med.png"
+                />
+              </div>
+              <h3>João da Silva Neto</h3>
+            </div>
+            <img class="postagem-img"
+              src="../imgs/foto-empresa.jpg"
+              alt=""
+            />
+            <div class="texto_postagem">
+              <p>
+                🌟 Feliz por participar dos grupos Banda e Futevôlei da
+                empresa!🌟
+                <br />
+                Estou muito feliz em fazer parte dos grupos da banda e do
+                futevôlei na empresa. Na banda, posso expressar minha
+                criatividade musical com colegas talentosos. No futevôlei,
+                fortaleço laços com meus colegas enquanto me divirto. Agradeço à
+                empresa por incentivar e valorizar nossos talentos e hobbies.
+                Mal posso esperar para os próximos ensaios e jogos!
+              </p>
+            </div>
+          </div>
+
+          <div class="postagem">
+            <div class="header_postagem">
+              <div class="img_postagem">
+                <img
+                  class="header_imagem_perfil"
+                  src="../imgs/profile-pic-med.png"
+                />
+              </div>
+              <h3>João da Silva Neto</h3>
+            </div>
+            <img  class="postagem-img" src="../imgs/futevolei-post.jpeg" alt="" />
+            <div class="texto_postagem">
+              <p>
+                🌟 Ansioso pelo jogo de futevôlei no dia 18/06! 🌟 <br />
+                Mal posso esperar para participar do evento de futevôlei! É um
+                esporte que amo, que combina futebol e vôlei de praia. Estou
+                empolgado para mostrar minhas habilidades, conhecer novas
+                pessoas e aproveitar o dia com jogos emocionantes. Vamos viver
+                intensamente cada momento e criar lembranças duradouras juntos!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="editar">
+          <a href="EditarPerfil.html"
+            ><img src="../imgs/edit-icn.png" alt=""
+          /></a>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="../Function/menu-dropdown.js"></script>
+  </body>
+</html>
